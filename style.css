@@ -1,19 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap'); /* This import font is for the navigation bar */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Permanent+Marker&display=swap'); /*This import font is for the logo */
+/*font-family: 'Comfortaa', cursive;*/
+
 *{
     padding: 0;
     margin: 0;
 }
 
 body{
-    color: blueviolet;
+    color: black;
 }
 
 header{
     padding: 0 20px;
-    width: 100%;
+    height: 50px;
+    background-color: tomato;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 header a{
     text-decoration: none;
+}
+
+#logo{
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo a{
+    text-decoration: none;
+    font-family: 'Permanent Marker',cursive;
+    color: black;
+}
+span{
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+nav ul{
+    list-style: none;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
+    padding: 5px;
+    margin: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Comfortaa',cursive;
+    color: black;
+}
+nav ul li:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
 }
