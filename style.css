@@ -24,7 +24,7 @@ header a{
 }
 
 #logo{
-    font-size: 50px;
+    font-size: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,7 +35,7 @@ header a{
     color: black;
 }
 span{
-    font-size: 60px;
+    font-size: 20px;
     color: whitesmoke;
 }
 
