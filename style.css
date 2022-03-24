@@ -27,7 +27,7 @@ header a{
     font-size: 15px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    line-height: 30px;
 }
 #logo a{
     text-decoration: none;
@@ -35,17 +35,17 @@ header a{
     color: black;
 }
 span{
-    font-size: 20px;
+    font-size: 18px;
     color: whitesmoke;
 }
 
 nav ul{
     list-style: none;
-    height: 100px;
+    height: 80pxpx;
     display: flex;
     justify-content: space-between;
 }
-nav li{
+nav ul li{
     padding: 5px;
     margin: 10px;
     line-height: 30px;

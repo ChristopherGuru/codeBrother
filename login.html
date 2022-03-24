@@ -5,10 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
+    <script src="https://kit.fontawesome.com/ac23ffa98b.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <main>
-        
+        <div class="login-box">
+            <i class="fa-solid fa-user-plus"></i>
+            <form action="POST">
+                <p>email*</p>
+                <input type="email" name="email" id="email" placeholder="Enter Email" required>
+                <br>
+                <p>password*</p>
+                <input type="password" name="password" id="password" placeholder="Enter Password" requried>
+                <br>
+                <button type="submit">LogIn</button>
+                <br>
+                <a href="#">Lost your password</a>
+                <br>
+                <a href="#">Don't have an account?</a>
+            </form>
+        </div>
     </main>
 </body>
 </html>
